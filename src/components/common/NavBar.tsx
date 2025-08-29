@@ -1,11 +1,14 @@
-import { Box, Typography } from "@mui/material"
+import { AppBar, Box, Typography } from "@mui/material"
+import { NavLink } from "react-router-dom"
 
 export const NavBar = () =>{
     return(
-        <Box>
-            <Typography>
-                NavBar
-            </Typography>
-        </Box>
+        <AppBar>
+            <Box>
+                <NavLink to="/">
+                <Typography>Logo</Typography>
+                </NavLink>
+            </Box>
+        </AppBar>
     )
 }
