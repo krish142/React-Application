@@ -1,10 +1,12 @@
 import { Box } from "@mui/material";
-import { Counter } from "./components/counter/Counter";
+import { UseState } from "./hooks/UseState";
+import { UseEffect } from "./hooks/UseEffect";
 
 const App: React.FC = () => {
   return (
     <Box>
-      <Counter />
+      <UseState />
+      <UseEffect />
     </Box>
   )
 }

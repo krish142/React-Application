@@ -14,7 +14,7 @@ export const Counter = () => {
         dispatch(decrement())
     }
     return (
-        <Box>
+        <Box sx={{marginTop:"20px"}}>
             <Box>
                 <Typography>Counter App</Typography>
             </Box>
